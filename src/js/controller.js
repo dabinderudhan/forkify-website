@@ -126,6 +126,10 @@ const controlAddRecipe = async function (newRecipe) {
   }
 };
 
+const newFeature = function () {
+  console.log('Welcome to the Application');
+};
+
 // we created init function which will be called immediately and it contains the event handler function in recipeView file
 const init = function () {
   bookmarksView.addHandlerRender(controlBookmarks);
@@ -135,6 +139,6 @@ const init = function () {
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addHandlerClick(controlPagination);
   addReceipeView._addHandlerUpload(controlAddRecipe);
-  console.log('Welcome');
+  newFeature();
 };
 init();
