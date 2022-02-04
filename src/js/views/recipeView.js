@@ -2,7 +2,7 @@ import View from './View.js';
 
 // import icons from '../img/icons.svg'; // Parcel 1
 import icons from 'url:../../img/icons.svg'; // Parcel 2 // import icons
-import { Fraction } from 'fractional'; // import fraction npm
+// import { Fraction } from 'fractional'; // import fraction npm
 
 // created class recipeview
 class RecipeView extends View {
